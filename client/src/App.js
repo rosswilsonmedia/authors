@@ -10,8 +10,8 @@ function App() {
   return (
     <Router>
       <Authors path='/'/>
-      <UpdateAuthor path='/edit/:id'/>
       <NewAuthor path='/new'/>
+      <UpdateAuthor path='/edit/:id'/>
     </Router>
   );
 }
